@@ -1,58 +1,56 @@
 body {
-    background-color:rgb(200, 224, 245);
+  background-color: rgb(200, 224, 245);
+  transition: all 2s ease-out;
 }
 h1,
 #value {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 80px;
-    margin-top: 80px;
-    display: block;
-
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 80px;
+  margin-top: 80px;
+  display: block;
 }
 #value {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
-    font-weight: 150;
-    color: rgb(19, 19, 19);
-    padding: 0%;
-    margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+  font-weight: 150;
+  color: rgb(19, 19, 19);
+  padding: 0%;
+  margin: auto;
 }
 .btn-container {
-    text-align: center;
-    margin-top: 10px;
-    padding-top: 10px;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
 }
-.decrease, 
+.decrease,
 .reset,
-.increase {  
-    font-size: larger;
-    font-weight: 100;
-    border: 3px solid black;
-    border-radius: 7px;
-    background-color:aliceblue;
-    transition: background-color 0.5s;
-    margin-right: 10px;
-    padding-right: 8px;
+.increase {
+  font-size: larger;
+  font-weight: 100;
+  border: 3px solid black;
+  border-radius: 7px;
+  background-color: aliceblue;
+  transition: background-color 0.5s;
+  margin-right: 10px;
+  padding-right: 8px;
 }
 .decrease:hover,
 .reset:hover,
 .increase:hover {
-    background-color: black;
-    color: azure;
-    
+  background-color: black;
+  color: azure;
 }
-.decrease:focus, 
-.decrease:active
- {
-    border: 3px solid rgb(205, 1, 1);
+.decrease:focus,
+.decrease:active {
+  border: 3px solid rgb(205, 1, 1);
 }
-.reset:focus, 
+.reset:focus,
 .reset:active {
-    border: 3px solid black;
+  border: 3px solid black;
 }
-.increase:focus, 
+.increase:focus,
 .increase:active {
-    border: 3px solid green;
+  border: 3px solid green;
 }
