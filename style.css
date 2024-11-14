@@ -1,6 +1,6 @@
 body {
   background-color: rgb(200, 224, 245);
-  transition: all 2s ease-out;
+  transition: all 1s ease-out;
 }
 h1,
 #value {
@@ -10,7 +10,7 @@ h1,
   padding-top: 80px;
   margin-top: 80px;
   display: block;
-  transition: all 2s ease-out;
+  transition: all 1s ease-out;
 }
 #value {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -19,13 +19,13 @@ h1,
   color: rgb(19, 19, 19);
   padding: 0%;
   margin: auto;
-  transition: all 2s ease-out;
+  transition: all 1s ease-out;
 }
 .btn-container {
   text-align: center;
   margin-top: 10px;
   padding-top: 10px;
-  transition: all 2s ease-out;
+  transition: all 1s ease-out;
 }
 .decrease,
 .reset,
@@ -38,7 +38,7 @@ h1,
   transition: background-color 0.5s;
   margin-right: 10px;
   padding-right: 8px;
-  transition: all 2s ease-out;
+  transition: all 1s ease-out;
 }
 .decrease:hover,
 .reset:hover,
