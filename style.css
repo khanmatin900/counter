@@ -48,7 +48,7 @@ body {
 .decrease:hover,
 .reset:hover,
 .increase:hover {
-  background-color: black;
+  background-color: rgb(30, 29, 29);
   color: azure;
 }
 .decrease:focus,
